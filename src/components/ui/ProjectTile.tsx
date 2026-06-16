@@ -69,7 +69,7 @@ const ProjectTile: React.FC<ProjectTileProps> = ({
           <h2 className="display-xl" style={{ marginBottom: 'var(--spacing-lg)', fontWeight: 330 }}>
             {title.toUpperCase()}
           </h2>
-          <p className="body-lg" style={{ marginBottom: 'var(--spacing-huge)', color: secondaryTextColor, maxWidth: '500px', marginInline: 'auto' }}>
+          <p className="body-lg" style={{ marginBottom: 'var(--spacing-huge)', color: secondaryTextColor, maxWidth: '500px' }}>
             {tagline}
           </p>
 

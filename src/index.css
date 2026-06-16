@@ -245,6 +245,22 @@ h1, h2, h3, h4, h5, h6 {
   .project-content > div {
     min-width: 100% !important;
   }
+  
+  .project-content p,
+  .project-content h2,
+  .project-content h4 {
+    text-align: center;
+  }
+  
+  .project-content p,
+  .project-content .eyebrow {
+    margin-inline: auto;
+  }
+  
+  /* specifically target the flex container holding the tags */
+  .project-content div[style*="display: flex"] {
+    justify-content: center !important;
+  }
 }
 
 .image-stack-container {
