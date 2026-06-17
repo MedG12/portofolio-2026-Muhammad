@@ -104,7 +104,7 @@ const HeroSection: React.FC = () => {
       >
         {[
           { label: 'GITHUB', url: 'https://github.com/MedG12' },
-          { label: 'LINKEDIN', url: 'https://www.linkedin.com/in/muhammad-9215b6231' },
+          { label: 'LINKEDIN', url: 'https://www.linkedin.com/in/mhmmmd' },
           { label: 'INSTAGRAM', url: 'https://www.instagram.com/_mhmmmd' }
         ].map((social) => (
           <a
